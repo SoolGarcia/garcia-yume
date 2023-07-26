@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="styles.css"/>
+    </head>
+    <body>
+        <header class="banner">
+                <p>
+                    yume
+                </p>
+                <p>
+                    menu
+                </p>
+            
+        </header>
+    <main>
+        
+        <div class="remera"> 
+            <img src="clases vsc/clase 2 modulo 2/remeej.jpg" alt="imagen de producto"/>
+            <p>Remera</p> 
+            <button>-</button>
+            <p>1</p>
+            <button>+</button>
+           <div>
+            <p>$2600</p>
+            <img src="" alt="tachito de basura"/>
+           </div>
+        </div>
+
+        
+        <div class="remera"> 
+            <img src="clases vsc/clase 2 modulo 2/remeej.jpg" alt="imagen de producto"/>
+            <p>Taza</p> 
+            <button>-</button>
+            <p>1</p>
+            <button>+</button>
+           <div>
+            <p>$1500</p>
+            <img src="" alt="tachito de basura"/>
+           </div>
+        </div>
+
+        <p class="total"> Total $4100</p>
+        <button class="pagar">Pagar</button>
+    </main>
+    <footer class="footer">
+        <img src="" alt="imagen del logo"/>
+        <div>
+            copyright 2023
+        </div>
+        <img src="" alt="imagen de logo de instagram"/>
+        <img src="" alt="imagen de logo de facebook"/>
+    </footer>
+
+</body>
+</html>
