@@ -13,8 +13,77 @@
 
 .banner {
     background-color: var (--primary);
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    max-width: 50%;
+    align-items: center;
+    margin: 0px auto;
+    justify-content: space-between;
 }
 
 .articulos {
     background-color: var (--secundary);
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 50%;
+    align-items: center;
+    margin: 0px auto;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    max-width: 50%;
+    align-items: center;
+    margin: 0px auto;
+    justify-content: space-between;
+    background-color: var (--secundary);
+}
+
+.remera {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    max-width: 50%;
+    align-items: center;
+    margin: 0px auto;
+    justify-content: space-between;
+
+}
+
+.remeraPrecio {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 50%;
+    align-items: center;
+    margin: 0px auto;
+    justify-content: space-between;
+}
+
+
+.total {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 50%;
+    align-items: right;
+    margin: 20px auto;
+    justify-content: space-between;
+}
+
+.pagar {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 50%;
+    align-items: center;
+    margin: 20px auto;
+    justify-content: space-between;
 }
