@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" type="text/css" />
+    <title>Registro</title>
+  </head>
+  <body>
+    <header class="banner">
+            
+        <p>
+            yume
+        </p>
+        <p>
+            menu
+        </p>
+    
+</header>
+    <form>
+      <h1>Registro</h1>
+      <div>
+        <div>
+          <label for="nombre">Nombre completo</label>
+          <input type="text" id="nombre" required />
+        </div>
+        <div>
+          <label for="apellido">Apellido</label>
+          <input type="text" id="apellido" />
+        </div>
+      </div>
+      
+        <div>
+          <label for="password">Password</label>
+          <input type="password" id="password" />
+        </div>
+        <div>
+          <label for="passwordRepeat">Repetir Password</label>
+          <input type="password" id="passwordRepeat" />
+        </div>
+     
+      <div>
+        <div>
+          <label for="email">Email</label>
+          <input type="email" id="email" />
+        </div>
+        <div>
+          <label for="telefono">Teléfono </label>
+          <input type="tel" id="telefono" />
+        </div>
+      </div>
+      <div>
+        <div>
+          <label for="nacionalidad">Nacionalidad</label>
+          <select id="nacionalidad">
+            <option value="argentina">Argentina</option>
+            <option value="uruguay">Uruguay</option>
+            <option value="brasil">Brasil</option>
+            <option value="mexico">Mexico</option>
+            <option value="chile">Chile</option>
+          </select>
+        </div>
+        <div>
+          <label for="nacimiento">Fecha de nacimiento</label>
+          <input type="date" id="nacimiento" />
+        </div>
+      </div>
+      <label>Género</label>
+      <div>
+        <div>
+          <input type="radio" id="masculino" />
+          <label for="masculino">Masculino</label>
+        </div>
+        <div>
+          <input type="radio" id="femenino" />
+          <label for="femenino">Femenino</label>
+        </div>
+        <div>
+          <input type="radio" id="noEspecificado" />
+          <label for="noEspecificado">No especificado</label>
+        </div>
+      </div>
+      <div>
+        <label for="terminos">Términos y condiciones</label>
+        <input type="checkbox" id="terminos" /> <br/>
+        <button type="submit">Registrarse</button>
+      </div>
+    </form>
+    <footer class="footer">
+        <img src="" alt="imagen del logo"/>
+        <div>
+            copyright 2023
+        </div>
+        <img src="" alt="imagen de logo de instagram"/>
+        <img src="" alt="imagen de logo de facebook"/>
+    </footer>
+  </body>
+</html>
